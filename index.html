@@ -12,17 +12,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
     <!-- fonts -->
 
     <!-- CSS Link file -->
     <link rel="stylesheet" href="/style.css">
 
-    <!-- js linl=k file -->
-    <script src="/script.js"></script>
-
-    <link rel="shortcut icon" href="/icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
     <title>Floral | India's best Floral House</title>
 </head>
 <script>
@@ -31,55 +30,47 @@
 <body>
     <div class="parent-box">
         <div class="landing-page">
-            <!-- <div class="fixed-top"> -->
-            <nav role="navigation" aria-label="Main" class="navbar">
-                <div id="menuToggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        <a href="#">
-                            <li>HOME</li>
-                        </a>
-                        <a href="#">
-                            <li>ABOUT</li>
-                        </a>
-                        <a href="#">
-                            <li>SERVICES</li>
-                        </a>
-                        <a href="/sign-in.html" target="_blank">
-                            <li>SIGN IN</li>
-                        </a>
-                        <a href="/sign-in.html" target="_blank">
-                            <li>REGISTER</li>
-                        </a>
+            <header>
+                <div class="logo">
+                    <img src="/images/florals-logo.png" alt="Florals Logo" />
+                    <a href="" class="header__logo">
+                        Florals
+                    </a>
+                </div>
+                <nav class="nav" id="nav-menu">
+                    <ion-icon name="close-outline" class="header__close" id="close-menu"></ion-icon>
+
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                                home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                                Arrangements
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                                Our Work
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                                Sign Up
+                            </a>
+                        </li>
                     </ul>
-                </div>
-                <div class="desk-menu">
-                    <ul>
-                        <a href="#">
-                            <li>HOME</li>
-                        </a>
-                        <a href="#">
-                            <li>ABOUT</li>
-                        </a>
-                        <a href="#">
-                            <li>SERVICES</li>
-                        </a>
-                        <a href="/sign-in.html" target="_blank">
-                            <li>SIGN IN</li>
-                        </a>
-                        <a href="/sign-in.html" target="_blank">
-                            <li class="five" style="color: white;">REGISTER</li>
-                        </a>
-                    </ul>
-                </div>
-                <div class="logo-head">
-                    <h1>Florals</h1>
-                </div>
-            </nav>
-            <!-- </div> -->
+                </nav>
+
+                <ion-icon name="menu-outline" class="header__toggle" id="toggle-menu"></ion-icon>
+            </header>
             <section class="lp-content-box vettel">
                 <div class="inner-vettel">
                     <div class="color"></div>
@@ -94,7 +85,7 @@
                             <h2>BLOOMS</h2>
                             <div class="btn_1 btn">
                                 <div class="inner-btn-1">
-                                    <h3><a href="">BUY NOW</a></32>
+                                    <h3><a href="">BUY NOW</a></h3>
                                 </div>
                                 <div class="inner-btn-2">
                                     <h3><a href="">Learn More</a></h3>
@@ -123,6 +114,7 @@
                     <img src="/images/arrange-3.jpg" alt="Flowers">
                 </div>
             </div>
+
         </section>
 
         <section class="flower-spec">
@@ -138,20 +130,73 @@
         <section class="other">
             <div class="ot-txt-box">
                 <h2>Other Features</h2>
-                <a href=""><span class="un">Show More</span></a>
             </div>
             <div class="parent">
                 <div class="div1 box__img">
-                    <img src="/images/mainnav.jpg" alt="Flowers in a Shop">
+                    <div class="front">
+                        <img src="/images/flowershop.jpg" alt="Flower Shop">
+                    </div>
+                    <div class="back">
+                        <h4>
+                            <a href="#">
+                                Shop
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates?
+                        </p>
+                    </div>
                 </div>
                 <div class="div2 box__img">
-                    <img src="/images/mainnav.jpg" alt="Flowers in a Buffe">
+                    <div class="div1 box__img">
+                        <div class="front">
+                            <img src="/images/mainnav.jpg" alt="Flower Shop">
+                        </div>
+                        <div class="back">
+                            <h4>
+                                <a href="#">
+                                    Shop
+                                </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates?
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="div3 box__img">
-                    <img src="/images/siteads.jpg" alt="Red Roses">
+                    <div class="div1 box__img">
+                        <div class="front">
+                            <img src="/images/siteads.jpg" alt="Flower Shop">
+                        </div>
+                        <div class="back">
+                            <h4>
+                                <a href="#">
+                                    Shop
+                                </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates?
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="div4 box__img"> 
-                    <img src="/images/siteads.jpg" alt="Indian Bridal">
+                <div class="div4 box__img">
+                    <div class="div1 box__img">
+                        <div class="front">
+                            <img src="/images/article.jpg" alt="Flower Shop">
+                        </div>
+                        <div class="back">
+                            <h4>
+                                <a href="#">
+                                    Shop
+                                </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptates?
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -169,7 +214,7 @@
             </div>
 
             <ul class="footer__nav">
-                <li class="nav__item">
+                <li class="footer__item">
                     <h2 class="nav__title">Media</h2>
 
                     <ul class="nav__ul">
@@ -187,7 +232,7 @@
                     </ul>
                 </li>
 
-                <li class="nav__item nav__item--extra">
+                <li class="footer__item nav__item--extra">
                     <h2 class="nav__title">Others</h2>
 
                     <ul class="nav__ul nav__ul--extra">
@@ -217,7 +262,7 @@
                     </ul>
                 </li>
 
-                <li class="nav__item">
+                <li class="footer__item">
                     <h2 class="nav__title">Legal</h2>
 
                     <ul class="nav__ul">
@@ -242,6 +287,9 @@
         </footer>
     </div>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
